@@ -9,6 +9,8 @@ import {
 import Blog from "../blog/Blog";
 import Home from "../home/Home";
 import Portfolio from "../portfolio/Portfolio";
+import Bio from "../bio/Bio";
+import Contact from "../contact/Contact";
 
 import './NavBar.css';
 
@@ -26,7 +28,13 @@ export default function NavBar() {
                         <Link to="/portfolio">Portfolio</Link>
                         </li>
                         <li>
+                        <Link to="/bio">Bio</Link>
+                        </li>
+                        <li>
                         <Link to="/blog">Blog</Link>
+                        </li>
+                        <li>
+                        <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </nav>
@@ -37,6 +45,12 @@ export default function NavBar() {
                     </Route>
                     <Route path="/blog">
                         <Blog />
+                    </Route>
+                    <Route path="/bio">
+                        <Bio />
+                    </Route>
+                    <Route path="/contact">
+                        <Contact />
                     </Route>
                     <Route path="/">
                         <Home />

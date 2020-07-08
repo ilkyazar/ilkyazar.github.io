@@ -1,10 +1,6 @@
 import React from "react";
 import {
-    Switch,
-    Route,
-    Link,
     useRouteMatch,
-    useParams
   } from "react-router-dom";
   
 var Blog = function () {

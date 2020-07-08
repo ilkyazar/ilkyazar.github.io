@@ -1,11 +1,11 @@
 import React from "react";
 
-var Home = function () {
+var Bio = function () {
     return (
         <div>
-            <h2>Home</h2>
+            <h2>Bio</h2>
         </div>
       );
 }
 
-export default Home;
+export default Bio;

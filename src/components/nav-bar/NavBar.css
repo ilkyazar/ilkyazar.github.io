@@ -6,7 +6,9 @@
   --color-txt: black;
   --color-home: rgb(240, 187, 237);
   --color-portfolio: rgb(189, 235, 188);
+  --color-bio: rgb(255, 231, 125);
   --color-blog: rgb(175, 214, 240);
+  --color-contact: rgb(220, 176, 238);
 }
 
 * {
@@ -23,38 +25,36 @@ body {
 }
 
 .nav-bar {
-  /* display the items of the navigation bar in a grid, where the anchor link elements take the space left available by the header  */
-  display: grid;
-  grid-template-columns: auto 1fr;
-  /* center the items vertically */
-  align-items: center;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  left: 0px;
+  height: 40px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 25px;
 }
 
 .nav-bar ul {
-  /* display the unordered list in a single row, placing the elements at the end of the grid column */
-  display: flex;
-  justify-content: center;
-  padding: 0.25rem 0.75rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .nav-bar ul li {
-  /* separate the list items more prominently */
+  display: inline-block;
   margin: 0 1.25rem;
-  font-size: 1.2rem;
+  padding: 0;
+  font-size: 0.7rem;
   text-transform: uppercase;
 }
 
 .nav-bar ul li a {
-  /* reset the anchor link styles */
   color: inherit;
-  text-decoration: none;
   padding: 0 0.25rem;
   letter-spacing: 0.2rem;
-  /* position relative to absolute position the connected pseudo element */
   position: relative;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 
 .nav-bar ul li a:before {
@@ -76,12 +76,21 @@ body {
   background: var(--color-portfolio);
 }
 .nav-bar ul li:nth-of-type(3) a:before {
+  background: var(--color-bio);
+}
+.nav-bar ul li:nth-of-type(4) a:before {
   background: var(--color-blog);
+}
+.nav-bar ul li:nth-of-type(5) a:before {
+  background: var(--color-contact);
 }
 
 .nav-bar ul li a:hover:before {
   bottom: -4px;
 }
+
+
+
 
 
 
