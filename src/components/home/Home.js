@@ -6,6 +6,7 @@ var Home = function () {
     return (
         <div className="main">
             <img className="homepage-logo" src={HomepageLogo}></img>
+            <div className="desc">Software Engineer, New Grad</div>
         </div>
       );
 }

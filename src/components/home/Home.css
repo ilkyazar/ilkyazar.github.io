@@ -8,8 +8,8 @@
 }
 
 .homepage-logo {
-    max-width: 50%;
-    max-height: 30%;
+    max-width: 40%;
+    max-height: 20%;
     position: absolute;
     margin: auto;
     left: 0; 
@@ -19,9 +19,17 @@
 }
 
 .desc {
-    font-weight: 5;
-    font-size: 1.2rem;
-    letter-spacing: 0.2rem;
-    padding: 0 0.25rem;
+    max-width: 60%;
+    max-height: 20%;
+    position: absolute;
+    margin: auto;
+    left: 32%; 
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    font-weight: 2;
+    font-size: 0.5rem;
+    letter-spacing: 0.5rem;
+    padding: 0;
     text-transform: uppercase;
 }
