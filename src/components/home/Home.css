@@ -7,8 +7,29 @@
     justify-content: center;
 }
 
+.social-links {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    bottom: 10px;
+    text-align: center;
+}
+
+.social-links a img {
+    width: 80px;
+    height: 80px;
+    padding: 25px;
+    display:inline-block;
+    margin:5px 20px;    
+    transition: all .2s ease-in-out;
+}
+
+.social-links a img:hover {
+    transform: scale(1.5);
+}
+
 .homepage-logo {
-    max-width: 40%;
+    max-width: 60%;
     max-height: 20%;
     position: absolute;
     margin: auto;
