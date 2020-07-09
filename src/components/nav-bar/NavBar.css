@@ -89,6 +89,21 @@ body {
   bottom: -4px;
 }
 
+.nav-bar .nav-pills:nth-of-type(1) .active {
+  font-weight:bold;
+}
+.nav-bar .nav-pills:nth-of-type(2) .active {
+  font-weight:bold;
+}
+.nav-bar .nav-pills:nth-of-type(3) .active {
+  font-weight:bold;
+}
+.nav-bar .nav-pills:nth-of-type(4) .active {
+  font-weight:bold;
+}
+.nav-bar .nav-pills:nth-of-type(5) .active {
+  font-weight:bold;
+}
 
 
 

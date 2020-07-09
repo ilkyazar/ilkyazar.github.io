@@ -1,11 +1,11 @@
 import React from "react";
 import './Home.css';
 
-import HomepageLogo from "../../assets/ilkyaz-title-homepage.png";
-import GithubLogo from "../../assets/github.png";
-import GmailLogo from "../../assets/gmail.png";
-import HackerrankLogo from "../../assets/hackerrank.png";
-import LinkedinLogo from "../../assets/linkedin.png";
+import HomepageLogo from "../../assets/home/ilkyaz-title-homepage.png";
+import GithubLogo from "../../assets/home/github.png";
+import GmailLogo from "../../assets/home/gmail.png";
+import HackerrankLogo from "../../assets/home/hackerrank.png";
+import LinkedinLogo from "../../assets/home/linkedin.png";
 
 var Home = function () {
     return (

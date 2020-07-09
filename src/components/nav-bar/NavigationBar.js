@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
+  NavLink,
 } from "react-router-dom";
 
 import Blog from "../blog/Blog";
@@ -20,21 +20,21 @@ export default function NavBar() {
         <Router>
             <div>
                 <nav className="nav-bar">
-                    <ul>
+                    <ul className="nav-pills">
                         <li>
-                        <Link to="/">Home</Link>
+                        <NavLink to="/" exact activeClassName="active">Home</NavLink>
                         </li>
                         <li>
-                        <Link to="/portfolio">Portfolio</Link>
+                        <NavLink to="/portfolio" exact activeClassName="active">Portfolio</NavLink>
                         </li>
                         <li>
-                        <Link to="/bio">Bio</Link>
+                        <NavLink to="/bio" exact activeClassName="active">Bio</NavLink>
                         </li>
                         <li>
-                        <Link to="/blog">Blog</Link>
+                        <NavLink to="/blog" exact activeClassName="active">Blog</NavLink>
                         </li>
                         <li>
-                        <Link to="/contact">Contact</Link>
+                        <NavLink to="/contact" exact activeClassName="active">Contact</NavLink>
                         </li>
                     </ul>
                 </nav>
