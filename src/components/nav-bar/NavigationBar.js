@@ -28,7 +28,7 @@ export default function NavBar() {
                         <NavLink to="/portfolio" exact activeClassName="active">Portfolio</NavLink>
                         </li>
                         <li>
-                        <NavLink to="/bio" exact activeClassName="active">Bio</NavLink>
+                        <NavLink to="/about" exact activeClassName="active">About</NavLink>
                         </li>
                         <li>
                         <NavLink to="/blog" exact activeClassName="active">Blog</NavLink>
@@ -46,7 +46,7 @@ export default function NavBar() {
                     <Route path="/blog">
                         <Blog />
                     </Route>
-                    <Route path="/bio">
+                    <Route path="/about">
                         <Bio />
                     </Route>
                     <Route path="/contact">

@@ -2,11 +2,28 @@ import React from "react";
 import './Bio.css';
 
 var Bio = function () {
+    var link = <a href={"https://ceng.metu.edu.tr/course-list"}>METU - Computer Engineering</a>;
+    
     return (
         <div className="text">
-            <h2>Hi!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.            
-            </p>
+            <h2>
+              <span>Hi!</span>
+            </h2>
+            <p>
+              <br/>
+              <span>I'm İlkyaz, a software engineer based in İstanbul, Turkey.</span>
+              <br/>
+              <span>Recently, I graduated from{link}department.</span>     
+              <br/>
+              <span>Here are the technologies I enjoy working with:</span>    
+            </p>  
+            <ul className="bullets">
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>HTML/CSS</li>
+            </ul> 
+            
         </div>
       );
 }

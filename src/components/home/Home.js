@@ -6,6 +6,7 @@ import GithubLogo from "../../assets/home/github.png";
 import GmailLogo from "../../assets/home/gmail.png";
 import HackerrankLogo from "../../assets/home/hackerrank.png";
 import LinkedinLogo from "../../assets/home/linkedin.png";
+import CodepenLogo from "../../assets/home/codepen.png";
 
 var Home = function () {
     return (
@@ -15,12 +16,14 @@ var Home = function () {
             <div className="social-links">
                 <a href="https://github.com/ilkyazar"
                   > <img src={GithubLogo} alt="github.com/ilkyazar"></img></a>
-                <a href="mailto:ilkyaz.arabaci@gmail.com"
-                  ><img src={GmailLogo} alt="github.com/ilkyazar"></img></a>
                 <a href="https://www.hackerrank.com/ilkyazar"
-                  ><img src={HackerrankLogo} alt="github.com/ilkyazar"></img></a>                                                                                            
+                  ><img src={HackerrankLogo} alt="hackerrank.com/ilkyazar"></img></a> 
+                <a href="https://codepen.io/ilkyazar"
+                  ><img src={CodepenLogo} alt="codepen.io/ilkyazar"></img></a>
+                <a href="mailto:ilkyaz.arabaci@gmail.com"
+                  ><img src={GmailLogo} alt="ilkyaz.arabaci@gmail.com"></img></a>                                                                                           
                 <a href="https://www.linkedin.com/in/ilkyaz-arabaci/"
-                  ><img src={LinkedinLogo} alt="github.com/ilkyazar"></img></a>
+                  ><img src={LinkedinLogo} alt="linkedin.com/in/ilkyazar"></img></a>
             </div>
 
         </div>
