@@ -30,12 +30,7 @@ export default function NavBar() {
                         <li>
                         <NavLink to="/about" exact activeClassName="active">About</NavLink>
                         </li>
-                        <li>
-                        <NavLink to="/blog" exact activeClassName="active">Blog</NavLink>
-                        </li>
-                        <li>
-                        <NavLink to="/contact" exact activeClassName="active">Contact</NavLink>
-                        </li>
+                        
                     </ul>
                 </nav>
   

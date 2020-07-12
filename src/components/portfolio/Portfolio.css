@@ -45,7 +45,7 @@
 }
 
 .card-body:hover {
-    transform: scale(1.1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.9);
 }
 
 .card-body h4 {
@@ -61,6 +61,13 @@
     line-height: 1.5;
     margin-bottom: 1.25rem;
     color: rgb(70, 68, 68);
+}
+
+.card-body h6 {
+    font-weight: 300;
+    font-size: 0.575rem;
+    color: rgb(109, 105, 105);
+    margin-bottom: 1em;
 }
 
 .links a img {
