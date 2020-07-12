@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c8c0832.chunk.css",
+    "main.js": "/static/js/main.18c5566b.chunk.js",
+    "main.js.map": "/static/js/main.18c5566b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a20b8e7c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a20b8e7c.js.map",
+    "static/js/2.0d0eac85.chunk.js": "/static/js/2.0d0eac85.chunk.js",
+    "static/js/2.0d0eac85.chunk.js.map": "/static/js/2.0d0eac85.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c3f04733e34506538856079db3b61e6c.js": "/precache-manifest.c3f04733e34506538856079db3b61e6c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4c8c0832.chunk.css.map": "/static/css/main.4c8c0832.chunk.css.map",
+    "static/js/2.0d0eac85.chunk.js.LICENSE.txt": "/static/js/2.0d0eac85.chunk.js.LICENSE.txt",
+    "static/media/codepen.png": "/static/media/codepen.ba5e581a.png",
+    "static/media/github.png": "/static/media/github.63a85200.png",
+    "static/media/gmail.png": "/static/media/gmail.e52b75c5.png",
+    "static/media/hackerrank.png": "/static/media/hackerrank.2dc2d98c.png",
+    "static/media/ilkyaz-title-homepage.png": "/static/media/ilkyaz-title-homepage.4c7e0915.png",
+    "static/media/visit-link.png": "/static/media/visit-link.0979c4cd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a20b8e7c.js",
+    "static/js/2.0d0eac85.chunk.js",
+    "static/css/main.4c8c0832.chunk.css",
+    "static/js/main.18c5566b.chunk.js"
+  ]
+}
