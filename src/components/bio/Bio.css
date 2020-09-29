@@ -1,6 +1,6 @@
 
 .text {
-    margin-top: 100px;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 20em;
@@ -32,3 +32,8 @@ ul {
 li {
     padding: 5px;
   }
+
+.photo a img {
+  width: 250px;
+  height: 250px;
+}

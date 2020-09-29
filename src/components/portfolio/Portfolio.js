@@ -11,18 +11,33 @@ var Portfolio = function () {
                 <li className="card">
                     <div className="card-body">
                         <h4>
-                        Weather App
+                        Menrva
                         </h4>
                         <br/>
-                        <h6>React, OpenWeatherMap API</h6>
+                        <h6>Vue, Django</h6>
                         <p>
-                        A weather application that shows the temperature, humidity and wind.
+                        A music analysis engine that can listen and evaluate the user playing an instrument.
                         </p>
                         <div className="links">
-                            <a href="https://github.com/ilkyazar/react-weather-app"
-                            ><img src={GithubLogo} alt="github.com/ilkyazar/react-weather-app"></img></a>
-                            <a href="https://ilkyazar.github.io/react-weather-app/"
-                            ><img src={VisitSiteLogo} alt="ilkyazar.github.io/react-weather-app/"></img></a>
+                            <a href="http://senior.ceng.metu.edu.tr/2020/menrva/"
+                            ><img src={VisitSiteLogo} alt="senior.ceng.metu.edu.tr/2020/menrva/"></img></a>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="card">
+                    <div className="card-body">
+                        <h4>
+                        Noteration
+                        </h4>
+                        <br/>
+                        <h6>React</h6>
+                        <p>
+                        A notebook application that you can create and share your personal notes.
+                        </p>
+                        <div className="links">
+                            <a href="https://github.com/eteration-bootcamp/2020-bootcamp-team-5"
+                            ><img src={GithubLogo} alt="https://github.com/eteration-bootcamp/2020-bootcamp-team-5"></img></a>
                         </div>
                     </div>
                 </li>
@@ -32,7 +47,7 @@ var Portfolio = function () {
                         <h4>Ispark Info
                         </h4>
                         <br/>
-                        <h6>React, Node.js, Express, IBB Acik Veri Portali API, Heroku</h6>
+                        <h6>React, Node.js, Express, Heroku</h6>
                         <p>
                         An application monitoring capacity and location of car parks in Istanbul.
                         </p>
@@ -48,16 +63,18 @@ var Portfolio = function () {
                 <li className="card">
                     <div className="card-body">
                         <h4>
-                        Menrva
+                        Weather App
                         </h4>
                         <br/>
-                        <h6>Vue, Django</h6>
+                        <h6>React, OpenWeatherMap API</h6>
                         <p>
-                        A music analysis engine that can listen and evaluate the user playing an instrument.
+                        A weather application that shows the temperature, humidity and wind.
                         </p>
                         <div className="links">
-                            <a href="http://senior.ceng.metu.edu.tr/2020/menrva/"
-                            ><img src={VisitSiteLogo} alt="senior.ceng.metu.edu.tr/2020/menrva/"></img></a>
+                            <a href="https://github.com/ilkyazar/react-weather-app"
+                            ><img src={GithubLogo} alt="github.com/ilkyazar/react-weather-app"></img></a>
+                            <a href="https://ilkyazar.github.io/react-weather-app/"
+                            ><img src={VisitSiteLogo} alt="ilkyazar.github.io/react-weather-app/"></img></a>
                         </div>
                     </div>
                 </li>

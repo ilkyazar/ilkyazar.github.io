@@ -1,5 +1,6 @@
 import React from "react";
 import './Bio.css';
+import Photo from "../../assets/about/ilkyaz_photo.JPG";
 
 var Bio = function () {
     var link = <a href={"https://ceng.metu.edu.tr/course-list"}>METU - Computer Engineering</a>;
@@ -23,6 +24,9 @@ var Bio = function () {
               <li>Node.js</li>
               <li>HTML/CSS</li>
             </ul> 
+            <div className="photo">
+              <a><img src={Photo} alt="ilkyaz_arabaci_photo"></img></a>
+            </div>
             
         </div>
       );

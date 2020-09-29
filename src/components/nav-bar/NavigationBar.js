@@ -17,7 +17,7 @@ import './NavBar.css';
 export default function NavBar() {
 
     return (
-        <Router>
+        <Router basename={`${process.env.PUBLIC_URL}/`}>
             <div>
                 <nav className="nav-bar">
                     <ul className="nav-pills">
@@ -47,7 +47,7 @@ export default function NavBar() {
                     <Route path="/contact">
                         <Contact />
                     </Route>
-                    <Route path="/">
+                    <Route exact path="/">
                         <Home />
                     </Route>
                 </Switch>
