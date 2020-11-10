@@ -28,6 +28,25 @@ var Portfolio = function () {
                 <li className="card">
                     <div className="card-body">
                         <h4>
+                        Random Quote Machine
+                        </h4>
+                        <br/>
+                        <h6>React</h6>
+                        <p>
+                        An application that you can view and tweet random quotes.
+                        </p>
+                        <div className="links">
+                            <a href="https://github.com/ilkyazar/Random-Quote-Machine"
+                            ><img src={GithubLogo} alt="https://github.com/ilkyazar/Random-Quote-Machine"></img></a>
+                            <a href="https://codepen.io/ilkyazar/full/MWePPJy"
+                            ><img src={VisitSiteLogo} alt="https://codepen.io/ilkyazar/full/MWePPJy"></img></a>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="card">
+                    <div className="card-body">
+                        <h4>
                         Noteration
                         </h4>
                         <br/>

@@ -22,7 +22,7 @@ var Bio = function () {
               <li>JavaScript</li>
               <li>React</li>
               <li>Node.js</li>
-              <li>HTML-CSS</li>
+              <li>HTML/CSS</li>
             </ul> 
             <div className="photo">
               <a><img src={Photo} alt="ilkyaz_arabaci_photo"></img></a>
