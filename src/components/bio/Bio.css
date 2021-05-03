@@ -3,7 +3,7 @@
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 20em;
+    width: 35em;
 }
 
 a {
@@ -13,7 +13,7 @@ a {
   }
 
 a:hover {
-    color: rgb(94, 116, 129);
+    text-decoration: underline;
 }
 
 p span {

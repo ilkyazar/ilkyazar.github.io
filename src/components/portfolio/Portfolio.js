@@ -63,43 +63,6 @@ var Portfolio = function () {
 
                 <li className="card">
                     <div className="card-body">
-                        <h4>Ispark Info
-                        </h4>
-                        <br/>
-                        <h6>React, Node.js, Express, Heroku</h6>
-                        <p>
-                        An application monitoring capacity and location of car parks in Istanbul.
-                        </p>
-                        <div className="links">
-                            <a href="https://github.com/ilkyazar/react-carpark-info"
-                            ><img src={GithubLogo} alt="github.com/ilkyazar/react-carpark-info"></img></a>
-                            <a href="https://ispark-carpark-info.herokuapp.com/"
-                            ><img src={VisitSiteLogo} alt="ispark-carpark-info.herokuapp.com/"></img></a>
-                        </div>
-                    </div>
-                </li>
-
-                <li className="card">
-                    <div className="card-body">
-                        <h4>
-                        Weather App
-                        </h4>
-                        <br/>
-                        <h6>React, OpenWeatherMap API</h6>
-                        <p>
-                        A weather application that shows the temperature, humidity and wind.
-                        </p>
-                        <div className="links">
-                            <a href="https://github.com/ilkyazar/react-weather-app"
-                            ><img src={GithubLogo} alt="github.com/ilkyazar/react-weather-app"></img></a>
-                            <a href="https://ilkyazar.github.io/react-weather-app/"
-                            ><img src={VisitSiteLogo} alt="ilkyazar.github.io/react-weather-app/"></img></a>
-                        </div>
-                    </div>
-                </li>
-
-                <li className="card">
-                    <div className="card-body">
                         <h4>Alien Shooter Game      
                         </h4>
                         <br/>
@@ -159,6 +122,43 @@ var Portfolio = function () {
                             <a href="https://github.com/ilkyazar/invention-gallery"
                             ><img src={GithubLogo} alt="github.com/ilkyazar/invention-gallery"></img></a>
                         </div>         
+                    </div>
+                </li>
+
+                <li className="card">
+                    <div className="card-body">
+                        <h4>Ispark Info
+                        </h4>
+                        <br/>
+                        <h6>React, Node.js, Express, Heroku</h6>
+                        <p>
+                        An application monitoring capacity and location of car parks in Istanbul.
+                        </p>
+                        <div className="links">
+                            <a href="https://github.com/ilkyazar/react-carpark-info"
+                            ><img src={GithubLogo} alt="github.com/ilkyazar/react-carpark-info"></img></a>
+                            <a href="https://ispark-carpark-info.herokuapp.com/"
+                            ><img src={VisitSiteLogo} alt="ispark-carpark-info.herokuapp.com/"></img></a>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="card">
+                    <div className="card-body">
+                        <h4>
+                        Weather App
+                        </h4>
+                        <br/>
+                        <h6>React, OpenWeatherMap API</h6>
+                        <p>
+                        A weather application that shows the temperature, humidity and wind.
+                        </p>
+                        <div className="links">
+                            <a href="https://github.com/ilkyazar/react-weather-app"
+                            ><img src={GithubLogo} alt="github.com/ilkyazar/react-weather-app"></img></a>
+                            <a href="https://ilkyazar.github.io/react-weather-app/"
+                            ><img src={VisitSiteLogo} alt="ilkyazar.github.io/react-weather-app/"></img></a>
+                        </div>
                     </div>
                 </li>
 

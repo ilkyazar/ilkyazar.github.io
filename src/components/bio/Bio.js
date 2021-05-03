@@ -1,9 +1,9 @@
 import React from "react";
 import './Bio.css';
-import Photo from "../../assets/about/ilkyaz_photo.JPG";
 
 var Bio = function () {
-    var link = <a href={"https://ceng.metu.edu.tr/course-list"}>METU - Computer Engineering</a>;
+    var cengLink = <a style={{ color: 'rgb(30, 120, 240)' }} href={"https://ceng.metu.edu.tr/course-list"}>METU - Computer Engineering</a>;
+    var adessoLink = <a style={{ color: 'rgb(30, 120, 240)' }} href={"https://www.adesso.com.tr/en/index-3.jsp"}>Adesso Turkey,</a>;
     
     return (
         <div className="text">
@@ -14,20 +14,22 @@ var Bio = function () {
               <br/>
               <span>I'm İlkyaz, a software engineer based in İstanbul, Turkey.</span>
               <br/>
-              <span>Recently, I graduated from{link}department.</span>     
+              <span>Currently, I'm working as Junior Java Developer at{adessoLink}one of the leading IT providers in the German-speaking market.</span>
               <br/>
+              <span>I graduated from{cengLink}department.</span>     
+              <br/><br/>
               <span>Here are the technologies I enjoy working with:</span>    
             </p>  
             <ul className="bullets">
+              <li>Java</li>
               <li>JavaScript</li>
               <li>React</li>
               <li>Node.js</li>
+              <li>Redux</li>
               <li>HTML/CSS</li>
-            </ul> 
-            <div className="photo">
-              <a><img src={Photo} alt="ilkyaz_arabaci_photo"></img></a>
-            </div>
-            
+              <li>Webpack/Babel</li>
+              <li>Git</li>
+            </ul>             
         </div>
       );
 }

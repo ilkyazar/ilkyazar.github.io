@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css';
 
-import HomepageLogo from "../../assets/home/ilkyaz-title-homepage.png";
+import HomepageLogo from "../../assets/home/ilkyaz-arabaci-logo.png";
 import GithubLogo from "../../assets/home/github.png";
 import GmailLogo from "../../assets/home/gmail.png";
 import HackerrankLogo from "../../assets/home/hackerrank.png";
