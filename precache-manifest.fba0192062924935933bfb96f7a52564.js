@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9bfa8e843fd0f5d4fe7c78d8a17ad3d8",
+    "revision": "fe69aed55731b82b54b515b84821e475",
     "url": "/index.html"
   },
   {
-    "revision": "bf58cfe5e06384161e7a",
-    "url": "/static/css/main.2b690b83.chunk.css"
+    "revision": "72fd37f9aacf26ff5c01",
+    "url": "/static/css/main.1afafaa1.chunk.css"
   },
   {
-    "revision": "1fe6d70d300dd2616d00",
-    "url": "/static/js/2.cffcb0d4.chunk.js"
+    "revision": "4326ac24b763691f45c9",
+    "url": "/static/js/2.0a8e31ee.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.cffcb0d4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0a8e31ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bf58cfe5e06384161e7a",
-    "url": "/static/js/main.d2fb862c.chunk.js"
+    "revision": "72fd37f9aacf26ff5c01",
+    "url": "/static/js/main.49a01a8d.chunk.js"
   },
   {
     "revision": "6b96dd93f7fa3d5d518e",
@@ -40,12 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hackerrank.2dc2d98c.png"
   },
   {
-    "revision": "4c7e0915111e9ef17198fb3d0539ba01",
-    "url": "/static/media/ilkyaz-title-homepage.4c7e0915.png"
-  },
-  {
-    "revision": "0f963df1217158a1b69ef578cf756d23",
-    "url": "/static/media/ilkyaz_photo.0f963df1.JPG"
+    "revision": "251249ce6578e5eebe23a68785ea49f9",
+    "url": "/static/media/ilkyaz-arabaci-logo.251249ce.png"
   },
   {
     "revision": "0979c4cd308563a2cbcd76aefd1c2a59",
