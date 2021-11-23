@@ -14,20 +14,22 @@ var Bio = function () {
               <br/>
               <span>I'm İlkyaz, a software engineer based in İstanbul, Turkey.</span>
               <br/>
-              <span>Currently, I'm working as Junior Java Developer at{adessoLink}one of the leading IT providers in the German-speaking market.</span>
+              <span>Currently, I'm working as Junior Frontend Developer at{adessoLink}one of the leading IT providers in the German-speaking market.</span>
               <br/>
               <span>I graduated from{cengLink}department.</span>     
               <br/><br/>
-              <span>Here are the technologies I enjoy working with:</span>    
+              <span>Here is the technology stack I enjoy working with:</span>    
             </p>  
             <ul className="bullets">
-              <li>Java</li>
               <li>JavaScript</li>
-              <li>React</li>
-              <li>Node.js</li>
-              <li>Redux</li>
-              <li>HTML/CSS</li>
+              <li>Typescript</li>
+              <li>React.js</li>
+              <li>Vue.js</li>
+              <li>HTML5/CSS3</li>
               <li>Webpack/Babel</li>
+              <li>Java</li>
+              <li>Spring</li>
+              <li>Node.js</li>
               <li>Git</li>
             </ul>             
         </div>

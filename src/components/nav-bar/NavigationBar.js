@@ -6,7 +6,6 @@ import {
   NavLink,
 } from "react-router-dom";
 
-import Blog from "../blog/Blog";
 import Home from "../home/Home";
 import Portfolio from "../portfolio/Portfolio";
 import Bio from "../bio/Bio";
@@ -37,9 +36,6 @@ export default function NavBar() {
                 <Switch>
                     <Route path="/portfolio">
                         <Portfolio />
-                    </Route>
-                    <Route path="/blog">
-                        <Blog />
                     </Route>
                     <Route path="/about">
                         <Bio />

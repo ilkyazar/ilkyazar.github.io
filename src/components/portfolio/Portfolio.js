@@ -1,167 +1,74 @@
 import React from "react";
 import './Portfolio.css';
-import GithubLogo from "../../assets/home/github.png";
-import VisitSiteLogo from "../../assets/portfolio/visit-link.png";
+import PortfolioCard from "../portfolio-card/PortfolioCard";
 
 var Portfolio = function () {
     return (
         <div className="main">
             <ul className="container">
-
-                <li className="card">
-                    <div className="card-body">
-                        <h4>
-                        Menrva
-                        </h4>
-                        <br/>
-                        <h6>Vue, Django</h6>
-                        <p>
-                        A music analysis engine that can listen and evaluate the user playing an instrument.
-                        </p>
-                        <div className="links">
-                            <a href="http://senior.ceng.metu.edu.tr/2020/menrva/"
-                            ><img src={VisitSiteLogo} alt="senior.ceng.metu.edu.tr/2020/menrva/"></img></a>
-                        </div>
-                    </div>
-                </li>
-
-                <li className="card">
-                    <div className="card-body">
-                        <h4>
-                        Random Quote Machine
-                        </h4>
-                        <br/>
-                        <h6>React</h6>
-                        <p>
-                        An application that you can view and tweet random quotes.
-                        </p>
-                        <div className="links">
-                            <a href="https://github.com/ilkyazar/Random-Quote-Machine"
-                            ><img src={GithubLogo} alt="https://github.com/ilkyazar/Random-Quote-Machine"></img></a>
-                            <a href="https://codepen.io/ilkyazar/full/MWePPJy"
-                            ><img src={VisitSiteLogo} alt="https://codepen.io/ilkyazar/full/MWePPJy"></img></a>
-                        </div>
-                    </div>
-                </li>
-
-                <li className="card">
-                    <div className="card-body">
-                        <h4>
-                        Noteration
-                        </h4>
-                        <br/>
-                        <h6>React</h6>
-                        <p>
-                        A notebook application that you can create and share your personal notes.
-                        </p>
-                        <div className="links">
-                            <a href="https://github.com/eteration-bootcamp/2020-bootcamp-team-5"
-                            ><img src={GithubLogo} alt="https://github.com/eteration-bootcamp/2020-bootcamp-team-5"></img></a>
-                        </div>
-                    </div>
-                </li>
-
-                <li className="card">
-                    <div className="card-body">
-                        <h4>Alien Shooter Game      
-                        </h4>
-                        <br/>
-                        <h6>JavaFX, Spring Boot, MariaDB, Apache Tomcat</h6>
-                        <p>
-                        An interactive multiplayer game where user should damage the aliens in order to pass the level.
-                        </p>   
-                        <div className="links">
-                            <a href="https://github.com/ilkyazar/alien-shooter-game"
-                            ><img src={GithubLogo} alt="github.com/ilkyazar/alien-shooter-game"></img></a>
-                        </div>         
-                    </div>
-                </li>
-
-                <li className="card">
-                    <div className="card-body">
-                        <h4>Hadoop MapReduce
-                        </h4>
-                        <br/>
-                        <h6>Java</h6>
-                        <p>
-                        A MapReduce application that analyzes the input files consisting of student grades on various courses.
-                        </p>   
-                        <div className="links">
-                            <a href="https://github.com/ilkyazar/hadoop-mapreduce"
-                            ><img src={GithubLogo} alt="github.com/ilkyazar/hadoop-mapreduce"></img></a>
-                        </div>         
-                    </div>
-                </li>
-
-                <li className="card">
-                    <div className="card-body">
-                        <h4>Multithreaded Elevator
-                        </h4>
-                        <br/>
-                        <h6>C++</h6>
-                        <p>
-                        A monitor implementation to simulate person threads which send asynchronous requests and have different priorities.
-                        </p>   
-                        <div className="links">
-                            <a href="https://github.com/ilkyazar/multithreaded-elevator"
-                            ><img src={GithubLogo} alt="github.com/ilkyazar/multithreaded-elevator"></img></a>
-                        </div>         
-                    </div>
-                </li>
-
-                <li className="card">
-                    <div className="card-body">
-                        <h4>Invention Gallery
-                        </h4>
-                        <br/>
-                        <h6>JavaScript, HTML/CSS</h6>
-                        <p>
-                        A gallery with you can exhibit, drop and rate inventions.
-                        </p>   
-                        <div className="links">
-                            <a href="https://github.com/ilkyazar/invention-gallery"
-                            ><img src={GithubLogo} alt="github.com/ilkyazar/invention-gallery"></img></a>
-                        </div>         
-                    </div>
-                </li>
-
-                <li className="card">
-                    <div className="card-body">
-                        <h4>Ispark Info
-                        </h4>
-                        <br/>
-                        <h6>React, Node.js, Express, Heroku</h6>
-                        <p>
-                        An application monitoring capacity and location of car parks in Istanbul.
-                        </p>
-                        <div className="links">
-                            <a href="https://github.com/ilkyazar/react-carpark-info"
-                            ><img src={GithubLogo} alt="github.com/ilkyazar/react-carpark-info"></img></a>
-                            <a href="https://ispark-carpark-info.herokuapp.com/"
-                            ><img src={VisitSiteLogo} alt="ispark-carpark-info.herokuapp.com/"></img></a>
-                        </div>
-                    </div>
-                </li>
-
-                <li className="card">
-                    <div className="card-body">
-                        <h4>
-                        Weather App
-                        </h4>
-                        <br/>
-                        <h6>React, OpenWeatherMap API</h6>
-                        <p>
-                        A weather application that shows the temperature, humidity and wind.
-                        </p>
-                        <div className="links">
-                            <a href="https://github.com/ilkyazar/react-weather-app"
-                            ><img src={GithubLogo} alt="github.com/ilkyazar/react-weather-app"></img></a>
-                            <a href="https://ilkyazar.github.io/react-weather-app/"
-                            ><img src={VisitSiteLogo} alt="ilkyazar.github.io/react-weather-app/"></img></a>
-                        </div>
-                    </div>
-                </li>
-
+                <PortfolioCard
+                    cardTitle="Menrva"
+                    cardKeywords="Vue, Django"
+                    cardParagraph="A music analysis engine that can listen and evaluate the user playing an instrument."
+                    cardDeployedLink="http://senior.ceng.metu.edu.tr/2020/menrva/"
+                />
+                <PortfolioCard
+                    cardTitle="Random Quote Machine"
+                    cardKeywords="React"
+                    cardParagraph="An application that you can view and tweet random quotes."
+                    cardGithubLink="https://github.com/ilkyazar/Random-Quote-Machine"
+                    cardDeployedLink="https://codepen.io/ilkyazar/full/MWePPJy"
+                />
+                <PortfolioCard
+                    cardTitle="Noteration"
+                    cardKeywords="React"
+                    cardParagraph="A notebook application that you can create and share your personal notes."
+                    cardGithubLink="https://github.com/eteration-bootcamp/2020-bootcamp-team-5"
+                />
+                <PortfolioCard
+                    cardTitle="Alien Shooter Game"
+                    cardKeywords="JavaFX, Spring Boot, MariaDB, Apache Tomcat"
+                    cardParagraph="An interactive multiplayer game where user should damage the aliens in order to pass the level."
+                    cardGithubLink="https://github.com/ilkyazar/alien-shooter-game"
+                />
+                <PortfolioCard
+                    cardTitle="Hadoop MapReduce"
+                    cardKeywords="Java"
+                    cardParagraph="A MapReduce application that analyzes the input files consisting of student grades on various courses."
+                    cardGithubLink="https://github.com/ilkyazar/hadoop-mapreduce"
+                />
+                <PortfolioCard
+                    cardTitle="Multithreaded Elevator"
+                    cardKeywords="C++"
+                    cardParagraph="A monitor implementation to simulate person threads which send asynchronous requests and have different priorities."
+                    cardGithubLink="https://github.com/ilkyazar/metu-ceng/tree/master/ceng334/hw2"
+                />
+                <PortfolioCard
+                    cardTitle="Trip Planner"
+                    cardKeywords="React"
+                    cardParagraph="A trip planner application that creates 3 possible plans with the selected cities and budget."
+                    cardGithubLink="https://github.com/ilkyazar/react-trip-planner"
+                />
+                <PortfolioCard
+                    cardTitle="Invention Gallery"
+                    cardKeywords="JavaScript, HTML/CSS"
+                    cardParagraph="A gallery with you can exhibit, drop and rate inventions."
+                    cardGithubLink="https://github.com/ilkyazar/invention-gallery"
+                />
+                <PortfolioCard
+                    cardTitle="Ispark Info"
+                    cardKeywords="React, Node.js, Express, Heroku"
+                    cardParagraph="An application monitoring capacity and location of car parks in Istanbul."
+                    cardGithubLink="https://github.com/ilkyazar/react-carpark-info"
+                    cardDeployedLink="https://ispark-carpark-info.herokuapp.com/"
+                />
+                <PortfolioCard
+                    cardTitle="Weather App"
+                    cardKeywords="React, OpenWeatherMap API"
+                    cardParagraph="A weather application that shows the temperature, humidity and wind."
+                    cardGithubLink="https://github.com/ilkyazar/react-weather-app"
+                    cardDeployedLink="https://ilkyazar.github.io/react-weather-app/"
+                />
         </ul>
       </div>
   
