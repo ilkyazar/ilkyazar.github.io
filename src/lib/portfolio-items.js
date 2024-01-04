@@ -7,6 +7,27 @@ export const portfolioItems = [
     cardDeployedLink: 'http://senior.ceng.metu.edu.tr/2020/menrva/',
   },
   {
+    cardTitle: 'Next.js Blog',
+    cardKeywords: 'Next.js',
+    cardParagraph: 'A blog about frontend web development.',
+    cardGithubLink: 'https://github.com/ilkyazar/nextjs-blog',
+    cardDeployedLink: 'https://nextjs-blog-ilkyazar.vercel.app/',
+  },
+  {
+    cardTitle: 'Meal Recipes',
+    cardKeywords: 'React, Firebase Auth REST API',
+    cardParagraph:
+      'An application where you can discover meal recipes that you can add to favorites, where you have your own account to login or sign up.',
+    cardGithubLink: 'https://github.com/ilkyazar/meal-recipes',
+  },
+  {
+    cardTitle: 'Events App',
+    cardKeywords: 'Next.js, NextAuth, bcryptjs & MongoDB',
+    cardParagraph:
+      'An application that you can discover events, see the details and search by date, where you have your own account to login or sign up.',
+    cardGithubLink: 'https://github.com/ilkyazar/nextjs-events-app',
+  },
+  {
     cardTitle: 'Random Quote Machine',
     cardKeywords: 'React',
     cardParagraph: 'An application that you can view and tweet random quotes.',
@@ -89,7 +110,6 @@ export const portfolioItems = [
     cardParagraph:
       'An application monitoring capacity and location of car parks in Istanbul.',
     cardGithubLink: 'https://github.com/ilkyazar/react-carpark-info',
-    cardDeployedLink: 'https://ispark-carpark-info.herokuapp.com/',
   },
   {
     cardTitle: 'Weather App',
@@ -97,6 +117,5 @@ export const portfolioItems = [
     cardParagraph:
       'A weather application that shows the temperature, humidity and wind.',
     cardGithubLink: 'https://github.com/ilkyazar/react-weather-app',
-    cardDeployedLink: 'https://ilkyazar.github.io/react-weather-app/',
   },
 ]

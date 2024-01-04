@@ -12,16 +12,6 @@ var Bio = function () {
       METU - Computer Engineering
     </a>
   )
-  var adessoLink = (
-    <a
-      target='_blank'
-      rel='noopener noreferrer'
-      style={{ color: 'rgb(30, 120, 240)' }}
-      href={'https://www.adesso.com.tr/en/index-3.jsp'}
-    >
-      adesso Turkey,
-    </a>
-  )
 
   return (
     <div className='text'>
@@ -31,11 +21,6 @@ var Bio = function () {
       <p>
         <br />
         <span>I'm İlkyaz, a software engineer based in İstanbul, Turkey.</span>
-        <br />
-        <span>
-          Currently, I'm working as Junior Frontend Developer at{adessoLink}one
-          of the leading IT providers in the German-speaking market.
-        </span>
         <br />
         <span>I graduated from{cengLink}department.</span>
         <br />
@@ -47,9 +32,10 @@ var Bio = function () {
         <li>Typescript</li>
         <li>React.js</li>
         <li>Vue.js</li>
+        <li>Next.js</li>
         <li>HTML/CSS</li>
         <li>Java</li>
-        <li>Spring</li>
+        <li>Spring, Spring Boot</li>
         <li>Node.js</li>
         <li>Git</li>
       </ul>
